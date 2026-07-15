@@ -1,0 +1,45 @@
+# Lokale Arbeitsanweisungen und Zwischenstände
+AA.*
+ÜR.*
+*_backup.*
+
+# Originalquellen und Roh-Extrakte
+PostgreSQL-18.pdf
+tmp/
+postgresql_book_2e/
+
+# Lokale Werkzeuge und Editor-Konfiguration
+scripts/
+.vscode/
+.idea/
+.obsidian/
+.codex/
+.agents/
+.env
+.env.*
+
+# Betriebssystem- und Editorreste
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+*~
+
+# Generierte Ausgabeformate
+*.epub
+*.mobi
+*.pdf
+*.docx
+*.html
+*.log
+build/
+dist/
+site/
+_site/
+
+# Lokale Python-/Tooling-Artefakte
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
